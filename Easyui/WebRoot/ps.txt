@@ -1,0 +1,21 @@
+easyui的学习：
+	前后台的交互：
+	
+实现：servlet + easyui + oracle
+数据库：Oracle数据库
+
+WebRoot目录：
+    easyui：是easyui的类库文件
+    css：css文件
+    datagrid：easyui中数据表格对应的代码保存目录
+    tree：树组件对应的岱庙保存目录
+    form：表单组件对应的代码目录
+    
+请求访问地址：
+  eg：以访问form组件的demo.jsp为例：
+     http://localhost:8081/M_Easyui/form/demo.jsp，直接访问页面，该页面向后台的servlet发送请求，在将数据返回到页面。
+
+jsonStr: {"list":[{"id":"141","name":"wangwu","age":12},{"id":"140","name":"lisi","age":11},{"id":"134","name":"11","age":11},{"id":"137","name":"11","age":11},{"id":"138","name":"11","age":11},{"id":"135","name":"11","age":11},{"id":"139","name":"zhangsan","age":10},{"id":"136","name":"001","age":1}]}
+jsonStr:         [{"id":"141","name":"wangwu","age":12},{"id":"140","name":"lisi","age":11},{"id":"134","name":"11","age":11},{"id":"137","name":"11","age":11},{"id":"138","name":"11","age":11},{"id":"135","name":"11","age":11},{"id":"139","name":"zhangsan","age":10},{"id":"136","name":"001","age":1}]
+
+
